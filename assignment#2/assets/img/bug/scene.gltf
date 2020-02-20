@@ -1,0 +1,283 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.5947368144989014,
+        1.3959758281707764,
+        2.1183180809020996
+      ],
+      "min": [
+        -1.5940444469451904,
+        -1.9763704538345337,
+        -1.2882716655731201
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99999076128005981,
+        0.99996960163116455,
+        0.99999338388442993
+      ],
+      "min": [
+        -0.9999881386756897,
+        -0.99997985363006592,
+        -0.99998921155929565
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 371286,
+      "max": [
+        65531
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 19970,
+      "max": [
+        1.1022441387176514,
+        1.3258411884307861,
+        -0.24907837808132172
+      ],
+      "min": [
+        -0.98386567831039429,
+        -1.9398877620697021,
+        -1.4752669334411621
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1812408,
+      "componentType": 5126,
+      "count": 19970,
+      "max": [
+        0.99999374151229858,
+        0.99996960163116455,
+        0.99935328960418701
+      ],
+      "min": [
+        -0.99994355440139771,
+        -0.99944961071014404,
+        -0.99999517202377319
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1485144,
+      "componentType": 5125,
+      "count": 101154,
+      "max": [
+        19969
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Andrew Mad (https://sketchfab.com/AndrewMad)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bug-ad1d5e7f538a4deeb6dd9abd8896808f",
+      "title": "Bug"
+    },
+    "generator": "Sketchfab-6.44.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1889760,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2052048,
+      "byteOffset": 1889760,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3941808,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.028863290822882724,
+        0.0067948123801661216,
+        0.00095468732686821063
+      ],
+      "name": "DynaWax1280",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.13415754633348961,
+          0.40990987343505997,
+          0.006498719331053596,
+          1
+        ],
+        "metallicFactor": 0.10870025442831172,
+        "roughnessFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "DynaWax128_DynaWax1280_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "DynaWax128_DynaWax1280_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "2d90e1f435214dd2832ed18459191bc6.fbx"
+    },
+    {
+      "children": [
+        4,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "name": "DynaWax128"
+    },
+    {
+      "mesh": 0,
+      "name": "DynaWax128_DynaWax1280_0"
+    },
+    {
+      "mesh": 1,
+      "name": "DynaWax128_DynaWax1280_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        0.8681735643409132,
+        -0.04269792476758618,
+        -0.49442041766105888,
+        0,
+        0.026252649065159568,
+        0.99884824456478372,
+        -0.040161956462697039,
+        0,
+        0.49556579845329912,
+        0.021887703177618865,
+        0.86829457435420643,
+        0,
+        -8.3777685165405273,
+        -0.84187048673629761,
+        5.7737908363342285,
+        1
+      ],
+      "name": "ZBrushDefault"
+    },
+    {
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
